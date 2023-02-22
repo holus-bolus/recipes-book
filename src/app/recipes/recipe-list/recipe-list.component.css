@@ -1,0 +1,8 @@
+.recipe-item {
+  display: flex;
+  gap: 150px;
+}
+
+.recipe-description-wrap {
+  min-width: 200px;
+}
