@@ -1,1 +1,12 @@
-<p>recipe-item works!</p>
+<a href="#" class="list-group-item clearfix">
+  <div class="recipe-item mt-lg-4 d-flex justify-content-between border border-primary p-4">
+    <div class="recipe-description-wrap">
+      <h4 class="list-group-item-heading mt-lg-5">
+        {{recipeItem.name}}
+      </h4>
+      <p class="list-group-item-text">{{recipeItem.description}}</p>
+    </div>
+    <span><img [src]="recipeItem.imagePath" alt="{{recipeItem.name}}" class="img-responsive"
+               style="height: 125px; width: 125px"></span>
+  </div>
+</a>
